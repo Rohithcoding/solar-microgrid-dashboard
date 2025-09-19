@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Solar Microgrid Dashboard - Complete Streamlit Deployment
 SIH Demo - IoT-based Solar Microgrid Monitoring System
@@ -19,7 +19,12 @@ Deployment Instructions:
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.graph_objects as go
+try:
+    import plotly.graph_objects as go
+except ImportError:
+    import os
+    os.system("pip install plotly")
+    import plotly.graph_objects as go
 import plotly.express as px
 from datetime import datetime, timedelta
 import random

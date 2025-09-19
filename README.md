@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ☀️ Solar Microgrid Dashboard - SIH Demo
 
 ## 🎯 Overview
@@ -156,3 +157,7 @@ Your Solar Microgrid Dashboard is ready for the SIH presentation!
 **Demo OTP:** 123456
 
 Good luck with your SIH presentation! 🚀
+=======
+# solar-microgrid-dashboard
+IoT-based solar microgrid monitoring system for SIH
+>>>>>>> c763254b9bd00e25e929de3747c22e6a8d47dcd1
